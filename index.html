@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Memes</title>
+	<link rel="stylesheet" type="text/css" href="memes.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+
+<body>
+	<div class='header'>
+		<h1>Get Memes</h1>
+
+		<form id='form'>
+			<p>
+				<label for="input1">Image URL:</label>
+				<input type="text" name="url" id="input1" value="" required/>
+			</p>
+			<p>
+				<label for="input2">Text Top:</label>
+				<input type="text" name="textTop" id="input2" value="">
+			</p>
+			<p>
+				<label for="input3">Text Bottom:</label>
+				<input type="text" name="textBottom" id="input3" value="">
+			</p>
+
+			<button id='generateBtn' type="submit">Go!</button>
+		</form>
+	</div>
+
+	<div id='memeBox' class='memeContainer'>
+
+	</div>
+
+	<script type="text/javascript" src="memes.js"></script>
+</body>
+
+</html>
