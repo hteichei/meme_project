@@ -22,7 +22,7 @@ function buildMeme() {
   img.classList.add("meme-img");
   memeDiv.classList.add("meme-div");
   remove.classList.add("remove-btn");
-  remove.textContent = "Y";
+  remove.textContent = "X";
 
   memeDiv.append(img);
   memeDiv.append(top);
